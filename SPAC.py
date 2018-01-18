@@ -80,7 +80,7 @@ class SPAC(object):
             filtSignal     = apply bandpass filter to all signal
                              None - No filter appy
                              [freqmin, freqmax] - filter from freqmin to freqmax
-            window         = length window in seconds (integer)
+            window         = length window in seconds 
             CoordinateFile = file coordinate (name, x, y, z)(string)
         """
         self.unique = unique
